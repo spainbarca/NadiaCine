@@ -1,0 +1,38 @@
+
+body {
+  line-height: 1.2em;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  color: #009;
+}
+table {
+  font-size: 12px;
+  margin: 10px;
+  width: 580px;
+  text-align: left;
+  border-collapse: collapse;
+}
+th, tfoot td {
+  font-size: 13px;
+  font-weight: normal;
+  padding: 6px;
+  background: #92C3E1;
+  border-top: 2px solid #aaaaff;
+  border-bottom: 0.4px solid #fff;
+  color: #ffffff;
+  text-align: center;
+}
+td {
+  padding: 6px;
+  background: #9CE192;
+  border-bottom: 0.4px solid #fff;
+  color: #669;
+  border-top: 0.6px solid transparent;
+}
+tr:hover td {
+  background: #d0dafd;
+  color: #339;
+}
+input[type="text"] {
+  width: 250px;
+}
+
